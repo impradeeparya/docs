@@ -18,3 +18,16 @@
 
     ![alt tag](https://cloud.githubusercontent.com/assets/8745622/23725696/8f66b784-0477-11e7-8ad8-476938138d09.png)
 
+5. Fill configuration according to requirements and press OK.
+
+    ![alt tag](https://cloud.githubusercontent.com/assets/8745622/24329786/689760b2-122e-11e7-8e29-3d97e486a750.png)
+    
+    ![alt tag](https://cloud.githubusercontent.com/assets/8745622/24329803/c1ce5afa-122e-11e7-9d64-37f0942273f5.png)
+    
+6. Click on run of pipeline view page to run pipeline.
+
+    ![alt tag](https://cloud.githubusercontent.com/assets/8745622/24329817/1e65afa2-122f-11e7-9cdb-dcf84144f6bc.png)
+    
+    - Green  : success
+    - Yellow : Running or build finished with warning
+    - Red    : Failed
