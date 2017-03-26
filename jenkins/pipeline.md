@@ -31,3 +31,20 @@
     - Green  : success
     - Yellow : Running or build finished with warning
     - Red    : Failed
+    
+7. Configure deployment step. Create another job for pipeline that will deploy war to particular server.
+8. Create job by clicking NEW_ITEM on jenkins home page or click on add step in pipeline view and configure deploy steps.
+
+    ![alt tag](https://cloud.githubusercontent.com/assets/8745622/24330140/f5feb80e-1235-11e7-80cb-645eaeeae6d2.png)
+    
+9. Click run on pipeline to trigger all jobs or steps of pipeline in sequence.
+
+    ![alt tag](https://cloud.githubusercontent.com/assets/8745622/24330143/02bf581e-1236-11e7-87a9-626b480a9d00.png)
+    
+>If build and deploy jobs are running in different nodes then in that case we can't copy war in deploy step from build workspace as there workspaces are different. So in this case copy war in some snapshot repository(like NEXUS) at the time of build and then download it at the time of deployment.
+  
+10. Deployment can be done in following ways : 
+    - Copy war to given server through SCP and then restart server.
+    - Openshift [Apass](https://github.com/impradeeparya/docs/blob/master/openshift/commands.md)
+    
+    >There are many ways to deploy our code to server but as of now i dirty my hands with above two ways only.
