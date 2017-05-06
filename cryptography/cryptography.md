@@ -5,7 +5,7 @@ Cipher : Mathematical algorithm to generate cipher text with the help of key and
  > Content + key -> cipher(DES or AES) -> cipher text.
 
 
-1. Symmetric
+1. **Symmetric**
 
     - Symmetric cryptography also know as secret key cryptography.
     - This technique uses one single key also know as secret key to encrypt and decrypt content.
@@ -16,7 +16,7 @@ Cipher : Mathematical algorithm to generate cipher text with the help of key and
     
     ![alt tag](https://cloud.githubusercontent.com/assets/8745622/25774215/e983e03e-32a8-11e7-8848-e91d3d51c1cc.png)
     
-2. Public 
+2. **Public** 
 
     - To overcome the drawback of symmetric cryptography public key cryptography came into picture.
     - This technique uses concept of two key i.e. to encrypt by one key and decrypt by another key.
@@ -29,6 +29,9 @@ Cipher : Mathematical algorithm to generate cipher text with the help of key and
     - Now only thing that client needs to verify is that the public key valid public key of server to whom client is sending its confidential information.
     - if someone hack and send its own public key to client than that person can easily decrypt client content.
     - For this we use Digital certificate created by trusted parties called certificate authorities aka CA to authenticate public key of a server.
-    - [How CA signed certificate works](https://github.com/impradeeparya/docs/blob/master/cryptography/digital-certificate.md)    
+    - [How CA signed certificate works](https://github.com/impradeeparya/docs/blob/master/cryptography/digital-certificate.md)
+        
+        
+    ![alt tag](https://cloud.githubusercontent.com/assets/8745622/25774321/9c52e3da-32aa-11e7-99fa-9214072b46d7.png)
     
     
