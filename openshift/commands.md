@@ -123,3 +123,6 @@
     ```
     oc delete image <IMAGE_NAME>
     ```
+8. Reference 
+    - [Docker](https://github.com/impradeeparya/docs/blob/master/docker/commands.md)
+    - [Jenkins](https://github.com/impradeeparya/docs/tree/master/jenkins)
