@@ -35,3 +35,7 @@ Cipher : Mathematical algorithm to generate cipher text with the help of key and
     ![alt tag](https://cloud.githubusercontent.com/assets/8745622/25774321/9c52e3da-32aa-11e7-99fa-9214072b46d7.png)
     
     
+    
+> As encryption speed of asymmetric cryptography is slower then symmetric cryptography. Therefore asymmetric basically used for key exchange and symmetric for bulk data encryption.
+    
+    
