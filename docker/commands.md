@@ -80,6 +80,7 @@
     docker run -it -d <IMAGE_ID>
     ```
     > above command will run container in detached mode with valid tty attached to it.
+    docker run -p 8080:8080 -d 7e949acc4b99
 
     ```
     docker attach <CONTAIER_ID>
